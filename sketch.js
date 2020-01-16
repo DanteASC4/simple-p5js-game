@@ -29,7 +29,7 @@ function draw() {
     }
     fill('white')
     strokeWeight(0)
-    if (frameCount < 120) {
+    if (frameCount < 180) {
         textAlign(CENTER);
         fill(255, 150)
         text('Click in this zone to drop a ball! \nTry to drop as many as you can in the goal before the time runs out!', 250, 50)
